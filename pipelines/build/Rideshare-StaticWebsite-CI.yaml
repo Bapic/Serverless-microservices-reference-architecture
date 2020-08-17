@@ -1,8 +1,5 @@
 resources:
   - repo: self
-pool:
-  name: Azure Pipelines
-  demands: npm
 
 steps:
   - task: Npm@1
